@@ -1,0 +1,53 @@
+.painel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  background-blend-mode: color-burn;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/background/5.png");
+
+  &.bloqueio {
+    background-color: rgb(255 0 0 / 47%);
+    #nao::before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../../assets/bloqueio.png");
+    }
+  }
+
+  .pedidonamoro {
+    display: block;
+    background: #fff;
+    border-radius: 2em;
+    max-width: 500px;
+    width: 100%;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 20px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      display: inline-block;
+      height: 100%;
+      max-height: 150px;
+    }
+  }
+}
