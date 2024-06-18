@@ -4,13 +4,23 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-position: top;
+  background-blend-mode: color-burn;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/background/5.png");
+
+  font-weight: bold;
 
   h1 {
     font-size: 30px;
+    color: #ffff;
   }
 
   h2 {
-    font-size: 23px;
+    font-size: 25px;
+    color: #d0d4ff;
   }
 
   img {

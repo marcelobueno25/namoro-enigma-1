@@ -5,8 +5,9 @@ const NotMobile = () => {
   return (
     <div className="notmobile">
       <h1>ACESSO BLOQUEADO</h1>
-      <h2>Para dispositivos móveis</h2>
-      <img src="./images/4/4.gif" alt="" />
+      <h1>PARA DISPOSITIVOS MÓVEIS</h1>
+      <h2>Acesso apenas pelo computador</h2>
+      <img src="./images/nv4/4.gif" alt="" />
     </div>
   );
 };
