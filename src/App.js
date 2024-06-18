@@ -2,18 +2,11 @@ import NotMobile from "./pages/NotMobile";
 import Router from "./routes";
 import "./styles/global.scss";
 
-const useMobileDetect = () => {
-  const userAgent = typeof navigator === "undefined" ? "" : navigator.userAgent;
-  const isMobile =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      userAgent
-    );
-
-  return isMobile;
-};
-
 const App = () => {
-  const isMobile = useMobileDetect();
+  const isMobile = window.matchMedia(
+    "only screen and (max-width: 760px)"
+  ).matches;
+
   if (isMobile) {
     return <NotMobile />;
   } else {

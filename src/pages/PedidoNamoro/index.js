@@ -76,25 +76,31 @@ const PedidoNamoro = () => {
   };
 
   return (
-    <div className={`painel ${finished ? "bloqueio" : ""}`}>
-      <Grid className="pedidonamoro" container spacing={10}>
-        <Grid container rowSpacing={3} columnSpacing={0}>
-          <Grid xs={12}>
+    <div className={`layoutNamoro ${finished ? "bloqueio" : ""}`}>
+      <div className="cardNamoro">
+        <Grid
+          container
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+          height="100%"
+        >
+          <Grid item xs={12}>
             <Box textAlign="center">
               <h1>{emocao.title}</h1>
             </Box>
           </Grid>
-          <Grid xs={12}>
+          <Grid item xs={12}>
             <Box display="flex" alignItems="center" justifyContent="center">
               <img src={emocao.img} alt="" />
             </Box>
           </Grid>
-          <Grid xs={12}>
+          <Grid item xs={12}>
             <Box textAlign="center">
               <h2>{emocao.message}</h2>
             </Box>
           </Grid>
-          <Grid xs={12}>
+          <Grid item xs={12}>
             <Grid
               container
               spacing={5}
@@ -124,7 +130,7 @@ const PedidoNamoro = () => {
             </Grid>
           </Grid>
         </Grid>
-      </Grid>
+      </div>
     </div>
   );
 };

@@ -1,134 +1,3 @@
-export const urso_image = {
-  apaixonado: [
-    {
-      id: 1,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/1.gif",
-    },
-    {
-      id: 2,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/2.gif",
-    },
-    {
-      id: 3,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/3.gif",
-    },
-    {
-      id: 4,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/4.gif",
-    },
-    {
-      id: 5,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/5.gif",
-    },
-    {
-      id: 6,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/6.gif",
-    },
-    {
-      id: 7,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/apaixonado/7.gif",
-    },
-  ],
-  bravo_1: [
-    {
-      id: 1,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_1/1.gif",
-    },
-    {
-      id: 2,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_1/2.gif",
-    },
-    {
-      id: 3,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_1/3.gif",
-    },
-    {
-      id: 4,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_1/4.gif",
-    },
-  ],
-  bravo_2: [
-    {
-      id: 1,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_2/1.gif",
-    },
-    {
-      id: 2,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_2/2.gif",
-    },
-    {
-      id: 3,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_2/3.gif",
-    },
-    {
-      id: 4,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_2/4.gif",
-    },
-    {
-      id: 5,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE ME AMA?",
-      img: "./images/bravo_2/5.gif",
-    },
-  ],
-  bravo_3: [
-    {
-      id: 1,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE NAO ME AMA?",
-      img: "./images/bravo_3/1.gif",
-    },
-    {
-      id: 2,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE NAO ME AMA?",
-      img: "./images/bravo_3/2.gif",
-    },
-    {
-      id: 3,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE NAO ME AMA?",
-      img: "./images/bravo_3/3.gif",
-    },
-    {
-      id: 4,
-      title: "FELIZ DIA DOS NAMORADOS",
-      message: "VOCE NAO ME AMA?",
-      img: "./images/bravo_3/4.gif",
-    },
-  ],
-};
-
 export const urso_niveis = {
   nv1: [
     {
@@ -178,47 +47,47 @@ export const urso_niveis = {
     {
       id: 1,
       title: "Coloca seu Óculos",
-      message: "Você me ama??",
+      message: "(Deve ter clicado errado)",
       img: "./images/nv2/1.gif",
     },
     {
       id: 2,
-      title: "Amor, é para clicar no SIM",
-      message: "Você me ama??",
+      title: "Como assim 'Não' rs",
+      message: "Pensei que era óbvio o 'SIM'",
       img: "./images/nv2/2.gif",
     },
   ],
   nv3: [
     {
       id: 1,
-      title: "ESTOU ESPERANDO",
-      message: "VOCÊ ME AMA?????????",
+      title: "ESTOU ESPERANDO SABRINA",
+      message: "RÁPIDO, ANTES QUE EU DURMA",
       img: "./images/nv3/1.gif",
     },
     {
       id: 2,
-      title: "ESTOU ESPERANDO",
-      message: "VOCÊ ME AMA?????????",
+      title: "ESTOU ESPERANDO SABRINA",
+      message: "ANSIOSAMENTE PELO 'SIM'",
       img: "./images/nv3/2.gif",
     },
   ],
   nv4: [
     {
       id: 1,
-      title: "NÃO FAZ ISSO COMIGO",
-      message: "DIZ QUE ME AMA?",
+      title: "DÁ PARA PARAR KERPEN?",
+      message: "DIZ QUE ME AMA",
       img: "./images/nv4/1.gif",
     },
     {
       id: 2,
-      title: "ESTOU NA BAD",
-      message: "Você não me ama nem um pouco?",
+      title: "você realmente quer me ver triste",
+      message: "você não me ama nem um pouco?",
       img: "./images/nv4/2.gif",
     },
     {
       id: 3,
-      title: "DIZ, SIM QUE ME AMAA",
-      message: "VAI LOGOOOO?",
+      title: "CADA TENTATIVA DE 'NÃO' É COMO UMA FACADA",
+      message: "DIZ, 'SIM' QUE ME AMAA, ANTES QUE EU MORRA",
       img: "./images/nv4/3.gif",
     },
     {
@@ -231,21 +100,20 @@ export const urso_niveis = {
   nv5: [
     {
       id: 1,
-      title: "Acha que eu estou brincando?",
-      message:
-        "Quando estiver no chuveiro, eu vou estar lá. Quando estiver vendo TV, eu vou estar lá. Quando estiver sonhando, eu vou estar lá. SÓ CLICA NO SIM",
+      title: "SABRINA...",
+      message: "VOCÊ TÁ COMEÇANDO A ME IRRITAR DE VERDADE",
       img: "./images/nv5/1.gif",
     },
     {
       id: 2,
       title: "OLHA O QUE VOCÊ FEZ",
-      message: "É O FIM, VC NÃO ME AMA?",
+      message: "CULPA SUA?",
       img: "./images/nv5/2.gif",
     },
     {
       id: 3,
-      title: "PARA APRENDER",
-      message: "A ME AMAR",
+      title: "TÁ ME TIRANDO?",
+      message: "PARA APRENDER A ME AMAR",
       img: "./images/nv5/3.gif",
     },
     {
@@ -258,8 +126,8 @@ export const urso_niveis = {
   nv6: [
     {
       id: 1,
-      title: "VOCÊ DESPERTOU MINHA IRA",
-      message: "AGORA NÃO TEM ESCOLHA",
+      title: "CHEGAAAAAA, VOCÊ DESPERTOU MINHA IRA...",
+      message: "AGORA VOCÊ(SABRINA KERPEN), NÃO TEM ESCOLHA",
       img: "./images/nv6/1.gif",
     },
   ],
